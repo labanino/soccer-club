@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .h1-big {
+        @apply text-big font-semibold font-poppins;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-poppins font-semibold;
+    }
+    p {
+        @apply font-roboto font-extralight text-2base mb-5;
+    }
+    @font-face {
+        font-family: Roboto-Thin;
+        font-weight: 100;
+        src: url(/fonts/Roboto-Thin.ttf) format("ttf");
+    }
+    @font-face {
+        font-family: Roboto-Light;
+        font-weight: 300;
+        src: url(/fonts/Roboto-Light.ttf) format("ttf");
+    }
+    @font-face {
+        font-family: Poppins-Thin;
+        font-weight: 100;
+        src: url(/fonts/Roboto-Thin.ttf) format("ttf");
+    }
+    @font-face {
+        font-family: Poppins-ExtraLight;
+        font-weight: 200;
+        src: url(/fonts/Roboto-ExtraLight.ttf) format("ttf");
+    }
+    @font-face {
+        font-family: Poppins-Light;
+        font-weight: 300;
+        src: url(/fonts/Roboto-Light.ttf) format("ttf");
+    }
+    @font-face {
+        font-family: Poppins-Medium;
+        font-weight: 500;
+        src: url(/fonts/Roboto-Medium.ttf) format("ttf");
+    }
+    @font-face {
+        font-family: Poppins-Black;
+        font-weight: 900;
+        src: url(/fonts/Roboto-Black.ttf) format("ttf");
+    }
+}
+
+@layer components {
+    .menuButton {
+        @apply uppercase transition duration-150 ease-out hover:opacity-60 text-white text-center py-2;
+    }
+    .btnCommonElements {
+        @apply uppercase shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out cursor-pointer font-poppins font-light;
+    }
+}
