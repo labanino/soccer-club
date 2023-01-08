@@ -10,7 +10,7 @@
         @apply font-poppins font-semibold;
     }
     p {
-        @apply font-roboto font-extralight text-2base mb-5;
+        @apply font-roboto font-extralight;
     }
     @font-face {
         font-family: Roboto-Thin;
