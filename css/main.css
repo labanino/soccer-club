@@ -1262,6 +1262,10 @@ p {
   font-size: 0.7rem;
 }
 
+.text-2base {
+  font-size: 1.1rem;
+}
+
 .font-medium {
   font-weight: 500;
 }
