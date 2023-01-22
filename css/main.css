@@ -587,7 +587,6 @@ select {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Poppins;
-  font-weight: 600;
 }
 
 p {
@@ -616,7 +615,7 @@ p {
 
   font-weight: 100;
 
-  src: url(/fonts/Roboto-Thin.ttf) format("ttf");
+  src: url(/fonts/Poppins-Thin.ttf) format("ttf");
 }
 
 @font-face {
@@ -624,7 +623,7 @@ p {
 
   font-weight: 200;
 
-  src: url(/fonts/Roboto-ExtraLight.ttf) format("ttf");
+  src: url(/fonts/Poppins-ExtraLight.ttf) format("ttf");
 }
 
 @font-face {
@@ -632,7 +631,7 @@ p {
 
   font-weight: 300;
 
-  src: url(/fonts/Roboto-Light.ttf) format("ttf");
+  src: url(/fonts/Poppins-Light.ttf) format("ttf");
 }
 
 @font-face {
@@ -640,7 +639,7 @@ p {
 
   font-weight: 500;
 
-  src: url(/fonts/Roboto-Medium.ttf) format("ttf");
+  src: url(/fonts/Poppins-Medium.ttf) format("ttf");
 }
 
 @font-face {
@@ -648,7 +647,7 @@ p {
 
   font-weight: 900;
 
-  src: url(/fonts/Roboto-Black.ttf) format("ttf");
+  src: url(/fonts/Poppins-Black.ttf) format("ttf");
 }
 
 *, ::before, ::after {
@@ -795,7 +794,6 @@ p {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
-  text-transform: uppercase;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
@@ -814,7 +812,6 @@ p {
   cursor: pointer;
   font-family: Poppins;
   font-weight: 300;
-  text-transform: uppercase;
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -846,25 +843,6 @@ p {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.footerMenuButton {
-  margin-bottom: 2rem;
-  text-align: center;
-  font-weight: 400;
-  text-transform: uppercase;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}
-
-.footerMenuButton:hover {
-  opacity: 0.6;
 }
 
 .absolute {
@@ -941,6 +919,10 @@ p {
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .flex {
@@ -1239,12 +1221,12 @@ p {
   font-weight: 500;
 }
 
-.font-extrabold {
-  font-weight: 800;
-}
-
 .font-extralight {
   font-weight: 200;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .font-normal {
